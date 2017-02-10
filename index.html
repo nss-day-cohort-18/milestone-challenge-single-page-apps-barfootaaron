@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>SPA Milestone Challenge</title>
+	<link href='https://fonts.googleapis.com/css?family=Varela+Round' rel='stylesheet' type='text/css'>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+	<link rel="stylesheet" type="text/css" href="css/styles.css">
+</head>
+
+	<nav class="navbar navbar-inverse" data-spy="affix" data-offset-top="auto"> 
+		<div class="nav navbar-nav">
+		<input id="newDescription" type="text" placeholder="Enter new description">
+		<button id="postButton">Add Description</button>
+		</div>
+	</nav>
+
+<body id="bodyContainer">	
+	
+	<div class="container-fluid" class="col-xs-12 container-fluid">
+		<img id="logo" src="img/logo.png">
+		<h2 id="inventoryBoardTitle">
+		<hr>
+		Welcome To My Used Car Lot!</h2>
+	</div>	
+			
+	<div id="inventoryContainer" class="container container-fluid"> 
+		<p id="inventoryBoardNote"><i>Click on any listing to edit description, then press enter to submit your new description:</i></p><br>
+		
+		<div id="inventoryGrid" class="row container-fluid">
+			<!-- Use this format to generate row elements <div id="inventoryCol" class="col-xs-4">
+			</div> -->
+		</div>
+	
+	</div>
+
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+	<script type="text/javascript" src="javascripts/carlot.js"></script>
+	<script type="text/javascript" src="javascripts/eventhandlers.js"></script>
+	<script type="text/javascript" src="javascripts/main.js"></script>
+</body>
+</html>

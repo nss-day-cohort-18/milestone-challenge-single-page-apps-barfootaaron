@@ -1,0 +1,95 @@
+{
+  "cars": [
+
+    {
+        "image": "img/4runner.png",
+   		"make": "Toyota",
+    	"model": "4Runner",
+    	"year": "2016",
+    	"price": "39,000",
+    	"description": "This is a freakin fantastic 2016 Toyota 4Runner with only 9,000 miles on it.",
+        "id":"1"
+    },
+    {
+        "image": "img/landrover.png",
+   		"make": "Land Rover",
+    	"model": "LR4",
+    	"year": "2011",
+    	"price": "29,999",
+    	"description": "This is a super swell 2009 Land Rover with only 3,500 miles on it.",
+        "id":"2"
+    },
+    {
+    "image": "img/yukon.png",
+        "make": "GMC",
+        "model": "Yukon",
+        "year": "2010",
+        "price": "49,999",
+        "description": "This is a simply superb 2010 GMC Yukon with only 100,000 miles on it.",
+        "id":"5"
+    },
+    {
+    "image": "img/gx.png",
+        "make": "Lexus",
+        "model": "GX",
+        "year": "2008",
+        "price": "29,999",
+        "description": "This is a really fast 2008 Lexus GX with only 105,000 miles on it.",
+        "id":"9"
+    },
+    {
+        "image": "img/explorer.png",
+   		"make": "Ford",
+    	"model": "Explorer",
+    	"year": "2013",
+    	"price": "29,999",
+    	"description": "This is a really super neat 2003 Ford Explorer with only 1,000 miles on it.",
+        "id":"3"
+    }, 
+    {
+    "image": "img/suburban.png",
+        "make": "Chevrolet",
+        "model": "Suburban",
+        "year": "2010",
+        "price": "55,555",
+        "description": "This is a one of a kind 2010 Chevy Suburban with only 150,000 miles on it.",
+        "id":"6"
+    },
+    {
+    "image": "img/expedition.png",
+        "make": "Ford",
+        "model": "Expedition",
+        "year": "2009",
+        "price": "35,000",
+        "description": "This is a very cool 2009 Ford Expedition with only 130,000 miles on it.",
+        "id":"7"
+    },
+    {
+    "image": "img/toureg.png",
+        "make": "Volkswagen",
+        "model": "Toureg",
+        "year": "2005",
+        "price": "15,000",
+        "description": "This is a boring ole 2005 Volkswagen Toureg with only 110,000 miles on it.",
+        "id":"8"
+    },
+    {
+        "image": "img/rogue.png",
+        "make": "Nissan",
+        "model": "Rogue",
+        "year": "2006",
+        "price": "8,999",
+        "description": "This is an immaculate 2006 Nissan Rogue with only 250,000 miles on it.",
+        "id":"0"
+    },
+    {
+        "image": "img/lr2.png",
+        "make": "Land Rover",
+        "model": "LR2",
+        "year": "2008",
+        "price": "49,999",
+        "description": "This is a pretty phenomenal 2008 Land Rover LR2 with only 175,000 miles on it.",
+        "id":"4"
+    }
+  ]
+}

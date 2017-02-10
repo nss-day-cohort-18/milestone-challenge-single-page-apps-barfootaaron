@@ -1,0 +1,136 @@
+/* Nav */
+
+* {
+	font-family: 'Varela Round', sans-serif !important;
+}
+
+#bodyContainer {
+	background-color: #2f3467;
+}
+
+#logo {
+	margin-top: 8em !important;
+}
+
+.navbar,
+.navbar-inverse {
+	align-content: auto;
+	border-color: none !important;
+	background-color: white !important;
+	background: #e5e5e5 !important;
+  	background: repeating-linear-gradient(45deg,lightgrey,
+	lightgrey 2.5px,white 2.5px, white 5px) !important;
+	margin-bottom: 20em;
+	height: 5em;
+	width: 100%;
+	padding: .8em;
+	border: none !important;
+	border-bottom: 2px solid darkgrey !important;
+}
+
+.affix {
+	top: 0;
+	width: 100%;
+	z-index: 1;
+	padding: .8em;
+  }
+
+ .affix + .container-fluid {
+  }
+
+input[type="text"] {
+	width: 60em;
+	max-width: 70%;
+	min-width: 40%;
+	height: 40px;
+	border-radius: 3px;
+	border: 1px solid lightgrey;
+	padding: 1em;
+	margin-left: 10%;
+}
+
+::-webkit-input-placeholder {
+	color: darkgrey;
+}
+
+#newDescription {
+	margin-left: 1em;
+	padding-left: 1em;
+}
+
+#postButton {
+	background-color: lightblue;
+	border: none;
+	height: 40px;
+	width: 160px;
+	border-radius: 5px;
+	margin: auto;
+	margin-left: 3em
+}
+
+/* Output area */
+
+h3 {
+	text-align: center;
+}
+
+img {
+	width: 50%;
+	margin-left: 25%;
+}
+
+.col-sm-3 {
+	display: inline;
+	background-color: lightgrey;#e5e5e5;
+	height: 120%;
+	min-height: 27em !important;
+	padding: 1em;
+	margin: 1em 1em 1em 1.5em;
+	width: 30%;
+	min-width: 220px;
+}
+
+.bordered{
+	border: 2px solid grey;
+	border-radius: 5px;
+}
+
+.green {
+	border: 5px dotted grey;
+	background-color: #c4ffc8;
+}
+
+hr {
+	margin-bottom: 1.5em;
+}
+
+#inventoryBoardTitle {
+	margin: 1.2em 1em 1em 1em;
+	text-align: center;
+	color: white;
+}
+
+#inventoryGrid {
+	height: 100%;
+	margin: .5em 1em 1em 1em;
+}
+
+#inventoryBoardNote {
+	margin: 1em 1em 0 .5em;
+	font-size: 1.2em;
+	color: white !important;
+}
+
+#inventoryContainer {
+	display: block;
+	border-radius: 7px;
+	width: 95%;
+	margin: 10px 2% 20px 2%;
+	height: 100%;
+	min-width: 933px;
+}
+
+.addMarginPadding {
+	margin: 2em;
+	padding: 1em;
+}
